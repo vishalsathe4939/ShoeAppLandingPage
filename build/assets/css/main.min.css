@@ -344,50 +344,42 @@ hr {
   width: 100%;
   left: 0; }
 
-body {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+#header {
+  background: url("../img/heroBackground.jpg") no-repeat;
+  background-size: cover;
+  height: 700px;
+  color: white;
+  text-align: center;
+  overflow: hidden; }
 
-#page-home {
-  margin: 20px;
-  display: flex; }
+img {
+  max-width: 500px;
+  width: 100%; }
 
-.author {
-  margin-top: 100px; }
-  .author p {
-    margin: 0; }
-
-.avatar {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  margin: 20px 0 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0; }
-
-.wrapper-starter {
-  width: 100%;
-  max-width: 700px;
-  background: white;
-  padding: 40px;
-  border-radius: 2px;
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.7);
-  text-align: center; }
-  .wrapper-starter p {
-    color: #666; }
+article {
+  width: 60%;
+  margin: 0 auto; }
 
 h1 {
-  margin-bottom: 20px; }
+  margin-bottom: 10px; }
 
-h4 {
-  margin-top: 100px; }
+.main-nav {
+  display: flex;
+  margin-top: 20px; }
+  .main-nav li {
+    list-style: none; }
+  .main-nav li:first-child {
+    margin-right: auto; }
+  .main-nav a {
+    display: block;
+    color: white;
+    border-radius: 4px;
+    padding: 15px 50px;
+    text-decoration: none;
+    font-weight: 900;
+    text-transform: uppercase; }
 
-.button {
-  margin-top: 50px;
-  border: 2px solid #0074D9;
-  color: #0074D9; }
-
-.flex-video {
-  border: 1px solid black; }
+a.download {
+  background: white;
+  color: #00adff;
+  box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2); }
