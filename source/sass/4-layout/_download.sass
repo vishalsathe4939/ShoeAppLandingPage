@@ -1,4 +1,38 @@
 #download
-  background: #5825ec
+  background: url("../img/downloadBackground.jpg") no-repeat
+  color: white
+  text-align: center
   padding: 100px 0
   margin-top: -70px
+  background-size: cover
+
+  h2
+    font-size: 68px
+    margin: 0
+    text-transform: uppercase
+    font-weight: 900
+    color: white
+
+  p
+    width: 100%
+    max-width: 450px
+    margin: 20px auto
+    font-weight: 900
+
+  .button
+    position: relative
+    width: 250px
+    margin: 0px 15px
+    padding-left: 50px
+
+  .apple::before, .google::before
+    position: absolute
+    display: block
+    left: 20%
+    top: 18px
+
+  .apple::before
+    content: url("../img/appleicon.png")
+
+  .google::before
+    content: url("../img/playicon.png")
